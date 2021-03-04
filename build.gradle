@@ -1,0 +1,13 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenLocal()
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+    }
+}
+
+ext {
+        scarabeiVersion = "f533be80bc"
+}
